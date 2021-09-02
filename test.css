@@ -1,0 +1,30 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    border: 5px solid rgb(252, 154, 170);
+
+}
+
+#calendar {
+    display: grid;
+    grid-template: repeat(8, 1fr)/repeat(5, 1fr);
+    align-items: center;
+    /* gap: 5%; */
+    height: 100%;
+}
+
+#month {
+    grid-column: 1/6;
+    background-color: pink;
+    height: 100%;
+}
+
+.day {
+    padding: 5% 0;
+    border: solid rgb(252, 154, 170);
+    /* height: 100%; */
+}
